@@ -1,0 +1,66 @@
+.header {
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  background-color: #e9c70a;
+  justify-content: space-between;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  font-size: 1.2em;
+
+  &__text-logo{
+    margin-left: 5px;
+    margin-right: 15px;
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+
+  &__title{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+
+  &__navigation{
+    display: inline-flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 2.2em;
+  }
+
+  &__buttons {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &__image{
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.estiloIcon {
+  cursor: pointer;
+  margin-right: 15px;
+  color: black;
+}
+
+.estiloIcon:hover {
+  color: #a08804;
+}
+
+.app-a {
+  margin-left: 1em;
+  margin-right: 0;;
+}
+
+.text-min{
+  font-size: 13px;
+  margin: 0px;
+}

@@ -1,0 +1,30 @@
+<div class="header">
+
+  <div class="header__title">
+    <img src="../../../assets/images/logo.png" alt="Logo" srcset="" class="header__image">
+    <span class="header__text-logo">FORTES</span>
+    <div class="mt-2">
+      <a class="app-a" routerLinkActive="app-a_active" (click)="onClicked()">
+        <span class="material-icons md-36 estiloIcon">menu</span>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="header__buttons" fxHide.xs fxHide.sm>
+    <a *ngIf="!isAuthorized" routerLink="shop" class="app-a" routerLinkActive="app-a_active">
+      <span class="material-icons md-36 estiloIcon">account_circle</span>
+    </a>
+
+    <div fxLayout="column">
+      <span *ngIf="!isAuthorized">{{ userOk ? userOk.nombre + ' ' + userOk.apellido : null}}</span>
+      <span class="text-min" *ngIf="!isAuthorized">{{ userOk ? userOk.rol : null}}</span>
+    </div>
+
+    <a *ngIf="!isAuthorized" routerLink="shop" class="app-a" routerLinkActive="app-a_active">
+      <span class="material-icons md-36 estiloIcon">logout</span>
+    </a>
+  </div>
+
+
+</div>

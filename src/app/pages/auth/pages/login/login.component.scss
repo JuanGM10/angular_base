@@ -1,0 +1,26 @@
+.login-page {
+  background-color: #e9c70a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.login-content {
+  width: 350px;
+  height: 380px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.button-session{
+  color: #7a6905;
+  background-color: #e9c70a;
+  bottom: -50px;
+}

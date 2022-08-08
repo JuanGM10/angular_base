@@ -1,0 +1,19 @@
+.navegation-list-label {
+  display: inline-block;
+  padding-left: 6px;
+}
+
+::ng-deep mat-sidenav{
+  margin-top: 100px;
+
+}
+
+::ng-deep .mat-drawer-backdrop.mat-drawer-shown {
+  visibility: hidden;
+}
+
+
+::ng-deep .mat-drawer-inner-container {
+
+  background-color: #e9c70a;
+}
